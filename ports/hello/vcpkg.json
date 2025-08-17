@@ -1,5 +1,10 @@
 {
   "name": "hello",
   "version": "1.0.0",
-  "description": "A simple hello-world C library"
+  "description": "A simple hello-world C library",
+  "license": "MIT",
+  "dependencies": [
+    { "name": "vcpkg-cmake", "host": true },
+    { "name": "vcpkg-cmake-config", "host": true }
+  ]
 }
